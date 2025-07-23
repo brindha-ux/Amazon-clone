@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 1rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #232f3e;
+  color: white;
+  padding: 1rem;
+}
+
+nav a {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.product {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.login-container {
+  max-width: 300px;
+  margin: 100px auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.login-container input {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
