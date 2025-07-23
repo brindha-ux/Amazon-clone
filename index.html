@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amazon Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Amazon Clone</div>
+    <nav>
+      <a href="login.html">Login</a>
+      <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+    </nav>
+  </header>
+
+  <main class="products">
+    <div class="product">
+      <img src="images/shoe.jpg" alt="Shoe">
+      <h2>Running Shoe</h2>
+      <p>₹1,999</p>
+      <button onclick="addToCart('Running Shoe', 1999)">Add to Cart</button>
+      <a href="product.html">View Details</a>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
